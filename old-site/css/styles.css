@@ -1,0 +1,91 @@
+body {
+	background-color: #ffffff; margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;
+}
+
+.contentTable {
+	background-color: #A4A8A2;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #ffffff;
+	line-height: 18px;
+}
+.tablemargin {
+	padding: 1px 10px;
+}
+
+a {
+	color: #F56C6A;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F56C6A;
+	text-decoration: none;
+
+}
+
+.mainlink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #4AA19A;
+	line-height: 18px;
+}
+
+.content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #777C74;
+	line-height: 18px;
+}
+.listcontent {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #777C74;
+	line-height: 14px;
+}
+.newscontent {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #ffffff;
+	line-height: 18px;
+}
+A:hover.newscontent {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.menucontent {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #777C74;
+	line-height: 20px;
+}
+
+.header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: bold;
+	color: #777C74;
+	line-height: 28px;
+}
+
+.lshbg {
+	background-image: url(../images/lsh.gif);
+	background-repeat: repeat-y;
+}
+
+.rshbg {
+	background-image: url(../images/rsh.gif);
+	background-repeat: repeat-y;
+}
