@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #A4A8A2;
+    padding: 20px;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+    color: #777C74;
+}
+
+header {
+    background-color: #A4A8A2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #4AA19A;
+}
+
+nav a:hover {
+    color: #F56C6A;
+}
+
+p {
+    color: #777C74;
+}
