@@ -7,35 +7,47 @@
     <title>{{ page.title }} - Vadholmen Simskola</title>
 </head>
 <body>
-  <header>
-    <img src="/vadholmen/assets/images/imgp2.jpg" alt="Vadholmen Simskola" class="header-image">
-  </header>
+    <div class="main-wrapper">
+        <header>
+            <img src="/vadholmen/assets/images/imgp2.jpg" alt="Vadholmen Simskola" class="header-image">
+        </header>
 
-    <div class="container-wrapper">
-        <aside class="sidebar-left">
-            <h3>Meny</h3>
+        <nav>
             <a href="/vadholmen/">Hem</a>
-            <a href="/vadholmen/personalen.html">Personal</a>
+            <a href="/vadholmen/personalen.html">Personalen</a>
             <a href="/vadholmen/grupper-tider.html">Grupper</a>
             <a href="/vadholmen/anmalning.html">Anmälning</a>
             <a href="/vadholmen/tips-rad.html">Tips</a>
             <a href="/vadholmen/styrelsen.html">Styrelse</a>
-        </aside>
+            <a href="/vadholmen/sponsorer.html">Sponsorer</a>
+        </nav>
 
-        <main class="content">
-            {{ content }}
-        </main>
+        <div class="container-wrapper">
+            <aside class="sidebar-left">
+                <h3>Meny</h3>
+                <a href="/vadholmen/">Hem</a>
+                <a href="/vadholmen/personalen.html">Personal</a>
+                <a href="/vadholmen/grupper-tider.html">Grupper</a>
+                <a href="/vadholmen/anmalning.html">Anmälning</a>
+                <a href="/vadholmen/tips-rad.html">Tips</a>
+                <a href="/vadholmen/styrelsen.html">Styrelse</a>
+            </aside>
 
-        <aside class="sidebar-right">
-            <h3>Du behövs!</h3>
-            <p>Simskolan behöver engagerade människor som kan assistera under sommaren.</p>
-            <p><strong>Kontakta oss:</strong></p>
-            <p>E-post: [E-post]<br>Telefon: [Nummer]</p>
-        </aside>
+            <main class="content">
+                {{ content }}
+            </main>
+
+            <aside class="sidebar-right">
+                <h3>Du behövs!</h3>
+                <p>Simskolan behöver engagerade människor som kan assistera under sommaren.</p>
+                <p><strong>Kontakta oss:</strong></p>
+                <p>E-post: [E-post]<br>Telefon: [Nummer]</p>
+            </aside>
+        </div>
+
+        <footer>
+            <p>Copyright © 2026 Vadholmen Simskola</p>
+        </footer>
     </div>
-
-    <footer>
-        <p>Copyright © 2026 Vadholmen Simskola</p>
-    </footer>
 </body>
 </html>

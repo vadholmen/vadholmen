@@ -2,12 +2,23 @@
 
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
+    background-color: #e8e8e8;
     color: #777C74;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding: 20px;
+}
+
+/* MAIN CONTAINER WITH BORDER */
+.main-wrapper {
+    background-color: #ffffff;
+    border: 3px solid #999;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 header {
@@ -48,9 +59,6 @@ nav a:hover {
 .container-wrapper {
     display: flex;
     flex: 1;
-    max-width: 1100px;
-    margin: 0 auto;
-    width: 100%;
     gap: 0;
 }
 
@@ -62,13 +70,24 @@ nav a:hover {
     min-height: 500px;
 }
 
+.sidebar-left h3 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .sidebar-left a {
     display: block;
-    color: #4AA19A;
+    color: #0000FF;
     text-decoration: none;
     font-weight: bold;
     font-size: 11px;
     padding: 5px;
+}
+
+.sidebar-left a:hover {
+    text-decoration: underline;
 }
 
 /* CONTENT COLUMN */
@@ -79,68 +98,37 @@ nav a:hover {
 }
 
 .content h1 {
-    color: #777C74;
+    color: #0000FF;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 20px;
-    border-bottom: 2px solid #A4A8A2;
+    border-bottom: 2px solid #cccccc;
     padding-bottom: 10px;
-}
-
-.content h2 {
-    color: #4AA19A;
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
 }
 
 .content p {
     line-height: 1.8;
     margin-bottom: 15px;
-    color: #777C74;
-    font-size: 13px;
-}
-
-.content a {
-    color: #F56C6A;
-    text-decoration: none;
-}
-
-.content table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 15px 0;
-}
-
-.content table th {
-    background-color: #A4A8A2;
-    color: #ffffff;
-    padding: 10px;
-}
-
-.content table td {
-    border: 1px solid #A4A8A2;
-    padding: 10px;
+    color: #333333;
 }
 
 /* RIGHT SIDEBAR */
 .sidebar-right {
     width: 230px;
-    background-color: #F56C6A;
+    background-color: #D3E4F0;
     padding: 20px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .sidebar-right h3 {
-    color: #ffffff;
+    color: #0000FF;
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
 .sidebar-right p {
-    color: #ffffff;
+    color: #000000;
     font-size: 12px;
     line-height: 1.6;
     margin-bottom: 10px;
