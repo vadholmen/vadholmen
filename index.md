@@ -32,4 +32,4 @@ Hör av dig genom att klicka på länken "kontakta oss" till höger.
 Vill du vara med och sponsra vår simskola klicka på länken kontakta oss till höger. Vill du att loggan på dit företag skall vara med bifoga en bild med din logga.
 
 
-Samtidigt som vi söker nya sponsorer så vill vi också rikta ett stort tack till alla våra [sponsorer under 2024](sponsorer.html).
+Samtidigt som vi söker nya sponsorer så vill vi också rikta ett stort tack till alla våra [sponsorer under 2025](sponsorer.html).
