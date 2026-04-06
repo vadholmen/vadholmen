@@ -90,6 +90,18 @@ nav a:hover {
     text-decoration: underline;
 }
 
+@media (min-width: 769px) {
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar-left {
+        display: none;
+    }
+}
+
 /* CONTENT COLUMN */
 .content {
     flex: 1;
