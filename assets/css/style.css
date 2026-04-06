@@ -94,7 +94,7 @@ nav a:hover {
         display: none;
     }
     .main-wrapper {
-        width: 800px;
+        width: 768px;
         margin: 0 auto;
     }
 }
@@ -174,4 +174,14 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 12px;
+}
+
+.lshbg {
+	background-image: url(../images/lsh.png);
+	background-repeat: repeat-y;
+}
+
+.rshbg {
+	background-image: url(../images/rsh.png);
+	background-repeat: repeat-y;
 }
