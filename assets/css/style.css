@@ -12,16 +12,17 @@ body {
 
 header {
     background-color: #A4A8A2;
-    padding: 20px;
+    padding: 0;
     text-align: center;
-    color: #ffffff;
-    border-bottom: 3px solid #4AA19A;
+    overflow: hidden;
 }
 
-header h1 {
-    font-size: 28px;
-    font-weight: bold;
-    margin: 0;
+header .header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 200px;
+    object-fit: cover;
 }
 
 nav {
