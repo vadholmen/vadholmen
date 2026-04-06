@@ -14,8 +14,6 @@ body {
 /* MAIN CONTAINER WITH BORDER */
 .main-wrapper {
     background-color: #ffffff;
-    border: 3px solid #999;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -96,6 +94,8 @@ nav a:hover {
     .main-wrapper {
         width: 768px;
         margin: 0 auto;
+        box-shadow: -20px 0 30px rgba(0,0,0,0.2), 20px 0 30px rgba(0,0,0,0.2);
+        border: 3px solid #999;
     }
 }
 
@@ -174,14 +174,4 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 12px;
-}
-
-.lshbg {
-	background-image: url(../images/lsh.png);
-	background-repeat: repeat-y;
-}
-
-.rshbg {
-	background-image: url(../images/rsh.png);
-	background-repeat: repeat-y;
 }
