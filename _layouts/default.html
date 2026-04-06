@@ -3,70 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vadholmen Simskola</title>
-    <style>
-        body {
-            display: flex;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .sidebar-left {
-            width: 120px;
-            background-color: #f0f0f0;
-        }
-        .content {
-            flex: 1;
-            padding: 10px;
-        }
-        .sidebar-right {
-            width: 230px;
-            background-color: red;
-        }
-        header, footer {
-            text-align: center;
-            padding: 10px;
-            background: #0073e6;
-            color: white;
-        }
-        nav {
-            padding: 10px;
-            background: #0073e6;
-        }
-        nav a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <title>{{ page.title }} - Vadholmen Simskola</title>
 </head>
 <body>
+    <header>
+        <h1>Vadholmen Simskola</h1>
+    </header>
 
-<header>
-    <h1>Vadholmen Simskola</h1>
-</header>
+    <nav>
+        <a href="/vadholmen/">Hem</a>
+        <a href="/vadholmen/personalen.html">Personalen</a>
+        <a href="/vadholmen/grupper-tider.html">Grupper</a>
+        <a href="/vadholmen/anmalning.html">Anmälning</a>
+        <a href="/vadholmen/tips-rad.html">Tips</a>
+        <a href="/vadholmen/styrelsen.html">Styrelse</a>
+        <a href="/vadholmen/sponsorer.html">Sponsorer</a>
+    </nav>
 
-<nav>
-    <a href="#">Hem</a>
-    <a href="#">Om</a>
-    <a href="#">Tjänster</a>
-    <a href="#">Kontakt</a>
-</nav>
+    <div class="container-wrapper">
+        <aside class="sidebar-left">
+            <h3>Meny</h3>
+            <a href="/vadholmen/">Hem</a>
+            <a href="/vadholmen/personalen.html">Personal</a>
+            <a href="/vadholmen/grupper-tider.html">Grupper</a>
+            <a href="/vadholmen/anmalning.html">Anmälning</a>
+            <a href="/vadholmen/tips-rad.html">Tips</a>
+            <a href="/vadholmen/styrelsen.html">Styrelse</a>
+        </aside>
 
-<div class="sidebar-left">
-    <!-- Left Sidebar Content -->
-</div>
+        <main class="content">
+            {{ content }}
+        </main>
 
-<div class="content">
-    <!-- This is where markdown content will be rendered -->
-</div>
+        <aside class="sidebar-right">
+            <h3>Du behövs!</h3>
+            <p>Simskolan behöver engagerade människor som kan assistera under sommaren.</p>
+            <p><strong>Kontakta oss:</strong></p>
+            <p>E-post: [E-post]<br>Telefon: [Nummer]</p>
+        </aside>
+    </div>
 
-<div class="sidebar-right">
-    <!-- Right Sidebar Content -->
-</div>
-
-<footer>
-    <p>&copy; 2026 Vadholmen Simskola - All Rights Reserved</p>
-</footer>
-
+    <footer>
+        <p>Copyright © 2026 Vadholmen Simskola</p>
+    </footer>
 </body>
 </html>
