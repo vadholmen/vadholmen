@@ -19,8 +19,6 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    width: 800px;
-    margin: 0 auto;
 }
 header {
     background-color: #A4A8A2;
@@ -95,11 +93,19 @@ nav a:hover {
     nav {
         display: none;
     }
+    .main-wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 768px) {
     .sidebar-left {
         display: none;
+    }
+    .main-wrapper {
+        width: 100%;
+        border: none;
     }
 }
 
