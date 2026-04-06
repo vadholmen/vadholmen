@@ -36,7 +36,7 @@ header .header-image {
 }
 
 nav {
-    background-color: #A4A8A2;
+    background-color: #b5c4d7;
     padding: 12px 20px;
     display: flex;
     flex-wrap: wrap;
@@ -44,7 +44,7 @@ nav {
 }
 
 nav a {
-    color: #4AA19A;
+    color: #777C74;
     text-decoration: none;
     margin-right: 20px;
     font-weight: bold;
@@ -64,7 +64,7 @@ nav a:hover {
 /* LEFT SIDEBAR */
 .sidebar-left {
     width: 120px;
-    background-color: #A4A8A2;
+    background-color: #FFFFFF;
     padding: 20px 10px;
     min-height: 500px;
 }
@@ -78,7 +78,7 @@ nav a:hover {
 
 .sidebar-left a {
     display: block;
-    color: #0000FF;
+    color: #777C74;
     text-decoration: none;
     font-weight: bold;
     font-size: 11px;
@@ -131,7 +131,7 @@ nav a:hover {
 }
 
 .content h1 {
-    color: #0000FF;
+    color: #777c74;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -154,7 +154,7 @@ nav a:hover {
 }
 
 .sidebar-right h3 {
-    color: #0000FF;
+    color: #777c74;
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 15px;
