@@ -100,12 +100,26 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-    .sidebar-left {
-        display: none;
-    }
     .main-wrapper {
         width: 100%;
         border: none;
+    }
+
+    .container-wrapper {
+        flex-direction: column;
+    }
+
+    .sidebar-left {
+        display: none;
+    }
+
+    .sidebar-right {
+        width: 100%;
+        order: 3;
+    }
+
+    .content {
+        order: 1;
     }
 }
 
