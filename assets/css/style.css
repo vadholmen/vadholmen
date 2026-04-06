@@ -138,6 +138,14 @@ nav a:hover {
     padding-bottom: 10px;
 }
 
+.content h2 {
+    color: #0000c0;
+}
+
+.content h3 {
+    color: #0000c0;
+}
+
 .content p {
     line-height: 1.8;
     margin-bottom: 15px;
