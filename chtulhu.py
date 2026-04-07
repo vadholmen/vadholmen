@@ -41,11 +41,19 @@ for (page, groups) in pages.items():
 <div style="text-align: center;">
 <h1>Anmälan {page.replace('-', '+')}</h1>
 
+<br/>
+
 <p><a href="{groups['simskola']}">Simskola</a></p>
+
+<br/>
 
 <p><a href="{groups['syskon']}">Syskongrupp</a></p>
 
+<br/>
+
 <p><a href="{groups['markestagning']}">Märkestagning</a></p>
+
+<br/>
 
 <p><a href="{groups['vuxen']}">Märkestagning Vuxen</a></p>
 </div>
