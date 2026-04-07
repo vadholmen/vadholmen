@@ -1,0 +1,52 @@
+import sys
+from pathlib import Path
+import re
+
+[path] = sys.argv[1:]
+input = Path(path).read_text().replace('\n', ' ')
+
+[table] = re.findall('<tbody>.*?</tbody>', input)
+rows = re.findall('<tr>.*?</tr>', table)
+exceptions = []
+pages = {}
+for row in rows:
+    cols = re.findall('<td>.*?</td>', row)
+    [title, _, _, form, _] = cols
+    title = title[4:-5]
+    url_suffix = re.search('href="(.*?)"', form).group(1)
+    url = 'https://member.myclub.se' + url_suffix
+    if ',' in title:
+        (group, page) = title.split(' - ')
+        if 'Syskon' in page:
+            group = 'syskon'
+        elif 'VUXEN' in group:
+            group = 'vuxen'
+        elif 'Märkestagning' in group:
+            group = 'markestagning'
+        else:
+            assert 'Simskola' in group, title
+            group = 'simskola'
+        page = '-'.join('v' + v for v in re.findall('2[6-8]', page))
+        page = pages.setdefault(page, {})
+        assert group not in page, title
+        page[group] = url
+    else:
+        exceptions.append((title, url))
+
+# stödmedlem, sponsor
+assert len(exceptions) == 2, exceptions
+for (page, groups) in pages.items():
+    assert len(groups) == 4
+    Path(f'anmalan-{page}.md').write_text(f'''\
+<div style="text-align: center;">
+# Anmälan {page.replace('-', '+')})
+
+[Simskola]({groups['simskola']})
+
+[Syskongrupp]({groups['syskon']})
+
+[Märkestagning]({groups['markestagning']})
+
+[Märkestagning Vuxen]({groups['vuxen']})
+</div>
+''')
