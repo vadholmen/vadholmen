@@ -1,7 +1,7 @@
 # Information till medlemmar i Vadholmens simskoleförening angående GDPR
 
 
-* Personuppgiftsansvarig är föreningens styrelse. Kontaktperson: föreningens ordförande, se hemsida för kontaktuppgifter.
+* Personuppgiftsansvarig är föreningens styrelse. Kontaktas [per epost](mailto:simskola@vadholmen.se).
 * De personuppgifter som föreningen behandlar är: namn, personnummer och e-postadress till vårdnadshavare). Föreningen samlar in dessa uppgifter för att kunna hantera anmälningar till simskolan och administrera medlemskapet.
 * Personuppgifterna raderas efter två år.
 * Ingen annan än föreningen tar del av personuppgifterna.

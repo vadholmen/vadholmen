@@ -58,6 +58,6 @@ Kanske kan du, ditt företag eller din arbetsplats ställa upp?
 Vi tar mycket gärna emot lotterivinster eller bidrag till materialinköp.
 
 
-[Klicka här](https://member.myclub.se/public/forms/15459/HD2bZxLujZ/) för att bidra ekonomiskt (öppnar länk för registrering och fakturagenerering).
+[Klicka här](https://member.myclub.se/public/forms/17463/3idDJdmROH/) för att bidra ekonomiskt (öppnar länk för registrering och fakturagenerering).
 
 [Kontakta oss per epost](mailto:simskola@vadholmen.se) för att bidra på annat sätt
