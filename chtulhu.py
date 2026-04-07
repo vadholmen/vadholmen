@@ -37,7 +37,7 @@ for row in rows:
 assert len(exceptions) == 2, exceptions
 for (page, groups) in pages.items():
     assert len(groups) == 4
-    Path(f'anmalan-{page}.html').write_text(f'''\
+    Path(f'anmalan-{page}.md').write_text(f'''\
 <div style="text-align: center;">
 <h1>Anmälan {page.replace('-', '+')}</h1>
 
