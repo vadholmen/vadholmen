@@ -11,7 +11,7 @@ exceptions = []
 pages = {}
 for row in rows:
     cols = re.findall('<td>.*?</td>', row)
-    [title, _, _, form, _] = cols
+    [title, _, _, _, form] = cols
     title = title[4:-5]
     url_suffix = re.search('href="(.*?)"', form).group(1)
     url = 'https://member.myclub.se' + url_suffix
@@ -37,16 +37,16 @@ for row in rows:
 assert len(exceptions) == 2, exceptions
 for (page, groups) in pages.items():
     assert len(groups) == 4
-    Path(f'anmalan-{page}.md').write_text(f'''\
+    Path(f'anmalan-{page}.html').write_text(f'''\
 <div style="text-align: center;">
-# Anmälan {page.replace('-', '+')})
+<h1>Anmälan {page.replace('-', '+')}</h1>
 
-[Simskola]({groups['simskola']})
+<p><a href="{groups['simskola']}">Simskola</a></p>
 
-[Syskongrupp]({groups['syskon']})
+<p><a href="{groups['syskon']}">Syskongrupp</a></p>
 
-[Märkestagning]({groups['markestagning']})
+<p><a href="{groups['markestagning']}">Märkestagning</a></p>
 
-[Märkestagning Vuxen]({groups['vuxen']})
+<p><a href="{groups['vuxen']}">Märkestagning Vuxen</a></p>
 </div>
 ''')
