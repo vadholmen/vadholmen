@@ -11,8 +11,7 @@ Det finns fem grupper:
 * en **märkestagningsgrupp** (12.45)
 
 
-Välj först vilka veckor du vill vara med, därefter finns tre olika formulär att välja på: länken "simskola" går till ett formulär gemensamt för nybörjargrupper och  fortsättningsgrupp, medan syskon och märkestagning har var sitt formulär.
-
+Välj först vilka veckor du vill vara med, därefter finns tre olika formulär att välja på: länken "simskola" går till ett formulär gemensamt för nybörjargrupper och  fortsättningsgrupp, medan syskon och märkestagning har egna formulär.
 
 Länkarna till anmälningsformulären nedan är stängda, öppnar 18/4
 
