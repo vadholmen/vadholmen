@@ -26,7 +26,7 @@ Det finns märken för alla nivåer. De enklaste märkena tar man i nybörjargru
 Att ägna en liten del av sommarlovet åt märkestagning är både roligt och nyttigt för de lite äldre barnen! Simborgarmärket och kilometermärket kan man ta utan att vara inskriven i simskolan. En bra idé för alla mammor, pappor och andra vuxna!
 
 
-Simskoletider och avgifter hittar du på [anmälningssidan](anmalning.html).
+Simskoletider och avgifter hittar du på [anmälningssidan](anmalan.html).
 
 ## Vuxna är varmt välkomna att delta i våra simgrupper
 Vuxna som ännu inte är simkunniga är välkomna till våra nybörjargrupper och deltar då på samma villkor som övriga deltagare i gruppen.
