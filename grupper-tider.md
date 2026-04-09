@@ -28,10 +28,11 @@ Att ägna en liten del av sommarlovet åt märkestagning är både roligt och ny
 
 Simskoletider och avgifter hittar du på [anmälningssidan](anmalan.html).
 
-## Vuxna är varmt välkomna att delta i våra simgrupper
-Vuxna som ännu inte är simkunniga är välkomna till våra nybörjargrupper och deltar då på samma villkor som övriga deltagare i gruppen.
-
-Simkunniga vuxna är också välkomna att delta i märkestagningsgruppen. För detta krävs att man uppfyller kraven för simkunnighet, och vi förutsätter att vuxna deltagare tar ansvar för sin egen säkerhet.
+## Vuxna i märkestagningsgruppen
+Simkunniga vuxna är välkomna att delta i märkestagningsgruppen. För detta krävs
+att man uppfyller kraven för simkunnighet, dvs simma 200 meter på djupt
+vatten. Vi förutsätter också att vuxna deltagare tar ansvar för sin egen
+säkerhet.
 
 Gruppstorleken i märkestagningen begränsas främst av säkerhetsskäl. Detta innebär att ett visst antal vuxna kan delta utöver ordinarie gruppstorlek utan att säkerheten påverkas.
 
