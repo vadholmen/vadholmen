@@ -5,19 +5,19 @@ Tack vare generösa ekonomiska bidrag har vi möjlighet att hålla tillräckligt
 
 **Stort tack till våra sponsorer!**
 
-Röda korset i Solberga
+Röda Korset i Solberga
 
-Solberga kyrkliga arbetskrets
-
-Kode Marin & Maskin AB
+Solberga Kyrkliga arbetskrets
 
 Rödbo Plantor & Växter
 
 FMT AB Framtidens marktjänst
 
+Kungälvsmålaren AB
+
 Stora Höga Hund & Katt AB
 
-Jörlandaboden
+ICA Jörlandaboden
 
 Timmervikens Skafferi
 
@@ -25,24 +25,21 @@ Gunvor & Christer i Haga
 
 Estrella AB
 
-Vadholmens kiosk
+Vadholmens Kiosk
 
-Hartills trädgårdar AB
-
-Goopy by Spot
-
-Manna från himlen
-
-Kungälvsmålaren AB
+GOOPY by Spot
 
 Lofab Bygg AB
 
-Reseinformation i Sverige AB
+Holmens terminal AB
+
+Kodes Goda AB
 
 Mercus yrkeskläder
 
 Mecuro
 
+Floramakeriet i Hålta
 
 # Vi behöver sponsorer
 
