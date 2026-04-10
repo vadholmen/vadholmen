@@ -1,3 +1,17 @@
+# Hemskt hack för att generera anmälningssidor.
+
+# Logga in på vadholmens konto på myclub.se, och navigera:
+# * Första flikraden: Medlem
+# * Andra flikraden: Medlemmar
+# * Tredje flikraden: Formulär
+
+# Spara sidan som html, och kör:
+# ```
+# python chtulhu <filnamn.html>
+# ```
+# från roten på vadholmen-repot. Detta ska uppdatera alla
+# anmalan-*.md-filer.
+
 import sys
 from pathlib import Path
 import re
@@ -38,23 +52,25 @@ assert len(exceptions) == 2, exceptions
 for (page, groups) in pages.items():
     assert len(groups) == 4
     Path(f'anmalan-{page}.md').write_text(f'''\
-<div style="text-align: center;">
-<h1>Anmälan {page.replace('-', '+')}</h1>
+<div style="text-align: center;" markdown=1>
+# Anmälan {page.replace('-', '+')}
 
 <br/>
 
-<p><a href="{groups['simskola']}">Simskola</a></p>
+[Simskola]({groups['simskola']})
 
 <br/>
 
-<p><a href="{groups['syskon']}">Syskongrupp</a></p>
+[Syskongrupp]({groups['syskon']})
 
 <br/>
 
-<p><a href="{groups['markestagning']}">Märkestagning</a></p>
+[Märkestagning]({groups['markestagning']})
 
 <br/>
 
-<p><a href="{groups['vuxen']}">Märkestagning Vuxen</a></p>
+[Märkestagning Vuxen]("{groups['vuxen']})
 </div>
 ''')
+
+print('Glöm inte att även uppdatera:', exceptions)

@@ -1,19 +1,19 @@
-<div style="text-align: center;">
-<h1>Anmälan v26+v27+v28</h1>
+<div style="text-align: center;" markdown=1>
+# Anmälan v26+v27+v28
 
 <br/>
 
-<p><a href="https://member.myclub.se/public/forms/17459/ryxMpXSjhl/">Simskola</a></p>
+[Simskola](https://member.myclub.se/public/forms/17459/ryxMpXSjhl/)
 
 <br/>
 
-<p><a href="https://member.myclub.se/public/forms/17446/lTuYC3r3qs/">Syskongrupp</a></p>
+[Syskongrupp](https://member.myclub.se/public/forms/17446/lTuYC3r3qs/)
 
 <br/>
 
-<p><a href="https://member.myclub.se/public/forms/17472/Djgd9croAI/">Märkestagning</a></p>
+[Märkestagning](https://member.myclub.se/public/forms/17472/Djgd9croAI/)
 
 <br/>
 
-<p><a href="https://member.myclub.se/public/forms/17511/d8h3jYB3yB/">Märkestagning Vuxen</a></p>
+[Märkestagning Vuxen]("https://member.myclub.se/public/forms/17511/d8h3jYB3yB/)
 </div>
