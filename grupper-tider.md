@@ -9,10 +9,9 @@ Inga förkunskapskrav, men man måste fylla minst 5 år under nuvarande kalender
 
 * Grupp 3    11.00-11.30 &mdash; Fortsättningsgrupp. För att vara med i denna grupp måste man tagit märket Silvergrodan.
 
-* Syskongrupp   12.15-12.45 &mdash; Nybörjare/fortsättningsgrupp för elever som har äldre syskon i märkestagningen.
+* Syskongrupp   12.15-12.45 &mdash; Blandat nybörjare och fortsättningsgrupp för elever som har äldre syskon i märkestagningen.
 
 * Märkestagning   12.45-14.00 &mdash; Eleven ska kunna simma 100 m på DJUPT vatten själv och 50 m rygg på DJUPT vatten själv.
-
 
 Vi avslutar simskolan med en festlig gemensam avslutning, fredag v28 kl 18.00. Avslutningen är gemensam för alla barn, oavsett vilka veckor man gått.
 
