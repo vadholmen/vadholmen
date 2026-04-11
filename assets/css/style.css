@@ -142,6 +142,11 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
+.content ul {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
 /* RIGHT SIDEBAR */
 .sidebar-right {
     width: 230px;
