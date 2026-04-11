@@ -69,7 +69,7 @@ for (page, groups) in pages.items():
 
 <br/>
 
-[Märkestagning Vuxen]("{groups['vuxen']})
+[Märkestagning Vuxen]({groups['vuxen']})
 </div>
 ''')
 

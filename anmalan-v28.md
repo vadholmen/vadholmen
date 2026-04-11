@@ -15,5 +15,5 @@
 
 <br/>
 
-[Märkestagning Vuxen]("https://member.myclub.se/public/forms/17507/S51OfSOTNT/)
+[Märkestagning Vuxen](https://member.myclub.se/public/forms/17507/S51OfSOTNT/)
 </div>
