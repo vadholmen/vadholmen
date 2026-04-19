@@ -34,4 +34,4 @@ Välj först vilka veckor du vill vara med, därefter finns tre olika formulär 
 
 Uppstår det några frågor eller funderingar, tveka inte att [maila oss](mailto:simskola@vadholmen.se)!
 
-Vi har tyvärr haft tekniska problem med vår e-post, det verkar som att all epost som skickats till oss mellan 10-19 april 2026 har försvunnit. Problemet ska vara åtgärdat nu, så om du har en fråga, skicka gärna om den!
+<p style="color:red">Vi har tyvärr haft tekniska problem med vår e-post, det verkar som att all epost som skickats till oss mellan 10-19 april 2026 har försvunnit. Problemet ska vara åtgärdat nu, så om du har en fråga, skicka gärna om den!</p>
