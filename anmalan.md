@@ -16,7 +16,7 @@ Välj först vilka veckor du vill vara med, därefter finns tre olika formulär 
 
 <!-- Länkarna till anmälningsformulären nedan är stängda, öppnar 18/4 -->
 
-<p style="color:red">Nybörjargruppen 10.30 är full v27</p>
+<p style="color:red">Nybörjargruppen 10.30 är full v27 och v28</p>
 
 <p style="color:red">Fortsättningsgruppen är full v28</p>
 
