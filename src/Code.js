@@ -221,7 +221,10 @@ ${weeks}
   <td>${ocr}</td>
 </tr><tr>
   <td>Säljare</td>
-  <td>Vadholmens Simskoleförening, org.nr ${orgNr}</td>
+  <td>Vadholmens Simskoleförening</td>
+</tr><tr>
+  <td>Organisationsnummer</td>
+  <td>${orgNr}</td>
 </tr><tr>
   <td>Fakturadatum</td>
   <td>${dateIsoPlusDays_(0)}</td>
