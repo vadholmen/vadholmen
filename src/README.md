@@ -18,4 +18,4 @@ $ clasp login 1oQIRBurDnl-nc65v9547ZXjPIO5YiACxDrwYsX6G2oklMS0nLSlcS4XE
 Now, `$ clasp pull` to fetch/archive upstream changes, or `$clasp push` to push changes.
 
 Expected maintenance: every new year, ensure the FORM_URL and formTabName in
-the top of [Code.gs](Code.gs) is up-to-date
+the top of [Code.js](Code.js) is up-to-date
