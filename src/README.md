@@ -9,6 +9,8 @@ $ source ~/.nvm/nvm.sh
 $ nvm install 20
 $ npm install -g @google/clasp
 ```
+Also make sure to enable [Google Apps Script API](https://script.google.com/u/1/home/usersettings).
+
 To sync the script with this git repo:
 ```
 $ cd <this-repo>/src

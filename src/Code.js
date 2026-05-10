@@ -6,6 +6,23 @@ const formUrl = 'https://docs.google.com/forms/d/1jD3aTiGTchCo569yXjOWlncNqaCQv8
 /* Namn på fliken i Sheets där formulärssvar fylls i */
 const formTabName = 'Form responses 2'
 
+/* Behöver uppdateras om man ändrar gruppnamn i Sheets eller Forms.
+   Vänstra är i Forms, högra i Sheets. */
+const groupNames = [
+  ["Nybörjare 10.00-10.30", "Nybörjare 10.00"],
+  ["Nybörjare 10.30-11.00", "Nybörjare 10.30"],
+  ["Fortsättning 11.00-11.30", "Fortsättning 11.00"],
+  ["Syskongrupp 12.15-12.45", "Syskongrupp"],
+  ["Märkestagning 12.45-14.00", "Märkestagning"],
+  ["Märkestagning VUXEN 12.45-14.00", "Märkestagning Vuxen"]];
+
+/* Pris för 1 vs 2 vs 3 veckor simskola */
+const costs = {
+    1: 400,
+    2: 700,
+    3: 750
+};
+
 const orgNr = "853300-7848";
 const bgNumber = "5684-9060";
 const swishSpaced = "123 1317 635";
@@ -239,13 +256,6 @@ function sendConfirmationEmail_(email, htmlBody, inlineImages) {
     subject: subject, htmlBody: htmlBody, body: htmlToText_(htmlBody), inlineImages: inlineImages});
 }
 
-const groupNames = [
-  ["Nybörjare 10.00-10.30", "Nybörjare 10.00"],
-  ["Nybörjare 10.30-11.00", "Nybörjare 10.30"],
-  ["Fortsättning 11.00-11.30", "Fortsättning 11.00"],
-  ["Syskongrupp 12.15-12.45", "Syskongrupp"],
-  ["Märkestagning 12.45-14.00", "Märkestagning"],
-  ["Märkestagning VUXEN 12.45-14.00", "Märkestagning Vuxen"]];
 const groupChoiceToTitle = Object.fromEntries(groupNames);
 const groupTitleToChoice = Object.fromEntries(groupNames.map(([a, b]) => [b, a]));
 
@@ -337,7 +347,7 @@ function processFormLine(row) {
       num_weeks += 1;
     }
   }
-  var cost = {1: 400, 2: 700, 3: 750}[num_weeks];
+  var cost = costs[num_weeks];
   var first = true;
   var weeks = [];
   for (const [week, choice] of [[26, data.group_w26], [27, data.group_w27], [28, data.group_w28]]) {
