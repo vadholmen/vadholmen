@@ -230,7 +230,7 @@ ${weeks}
   <td>${dateIsoPlusDays_(0)}</td>
 </tr><tr>
   <td>Förfallodatum</td>
-  <td>${dateIsoPlusDays_(0)}</td>
+  <td>${dateIsoPlusDays_(10)}</td>
 </tr></table>
 
 <p>Vänligen kontrollera att BG- och OCR-numret anges korrekt vid betalning.</p>
