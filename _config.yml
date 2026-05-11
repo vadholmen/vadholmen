@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Vadholmen Simskola
 description: Hemsida för Vadholmens simskola
+exclude:
+  - src
