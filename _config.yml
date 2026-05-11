@@ -3,3 +3,7 @@ title: Vadholmen Simskola
 description: Hemsida för Vadholmens simskola
 exclude:
   - src
+  - .sass-cache/
+  - .jekyll-cache/
+  - vendor/
+  - .bundle/
